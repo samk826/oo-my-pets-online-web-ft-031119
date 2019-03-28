@@ -11,6 +11,10 @@ def initialize(species)
 
 end
 
+def pets
+  @@pets
+
+
 def self.reset_all
   @@all.clear
 end
