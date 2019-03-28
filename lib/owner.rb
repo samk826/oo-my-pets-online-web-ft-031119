@@ -22,9 +22,14 @@ end
 def say_species
 "I am a #{@species}."
 end
+
 def self.count
   @@all.length
 end
+
+def buy_fish(fish)
+  @@pets[:fishes]<< Fish.new(fish)
+end 
 
   # code goes here
 end
