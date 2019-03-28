@@ -11,7 +11,7 @@ def initialize(species)
 
 end
 
-def pets
+def self.pets
   @@pets
 
 
