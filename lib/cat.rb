@@ -5,3 +5,4 @@ attr_reader :name
   def initialize ()
   # code goes here
 end
+end
