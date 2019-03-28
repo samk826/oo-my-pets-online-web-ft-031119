@@ -5,7 +5,6 @@ attr_reader :name
   def initialize (name, mood)
     @mood = "nervous"
     @name= name
-  end
   # code goes here
 end
 end
