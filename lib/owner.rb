@@ -13,7 +13,7 @@ end
 
 def self.pets
   @@pets
-end 
+end
 
 def self.reset_all
   @@all.clear
