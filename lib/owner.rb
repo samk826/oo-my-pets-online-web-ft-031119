@@ -7,7 +7,7 @@ attr_reader :species
 def initialize(species)
 @species=species
 @@all<<self
-@@pets = {fishes: [], cats: [], dogs: []}
+@@pets = {:cats=>[], :dogs=>[], :fishes=>[]}
 
 end
 
